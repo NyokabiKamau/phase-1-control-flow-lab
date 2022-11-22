@@ -2,18 +2,18 @@
   "stats": {
     "suites": 4,
     "tests": 8,
-    "passes": 3,
+    "passes": 8,
     "pending": 0,
-    "failures": 5,
-    "start": "2022-11-21T18:28:28.636Z",
-    "end": "2022-11-21T18:28:28.855Z",
-    "duration": 219
+    "failures": 0,
+    "start": "2022-11-22T12:02:08.959Z",
+    "end": "2022-11-22T12:02:09.187Z",
+    "duration": 228
   },
   "tests": [
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -36,130 +36,44 @@
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'Ok, sounds good.'",
-        "showDiff": true,
-        "expected": "Ok, sounds good.",
-        "stack": "AssertionError: expected undefined to equal 'Ok, sounds good.'\n    at Context.<anonymous> (test/indexTest.js:18:42)\n    at processImmediate (node:internal/timers:466:21)"
-      }
+      "err": {}
     },
     {
       "title": "should return \"No go.\" if the destination city is not NYC",
       "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'No go.'",
-        "showDiff": true,
-        "expected": "No go.",
-        "stack": "AssertionError: expected undefined to equal 'No go.'\n    at Context.<anonymous> (test/indexTest.js:22:49)\n    at processImmediate (node:internal/timers:466:21)"
-      }
+      "err": {}
     },
     {
       "title": "should return \"Thank you so much.\" if the tip is generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'Thank you so much.'",
-        "showDiff": true,
-        "expected": "Thank you so much.",
-        "stack": "AssertionError: expected undefined to equal 'Thank you so much.'\n    at Context.<anonymous> (test/indexTest.js:28:51)\n    at processImmediate (node:internal/timers:466:21)"
-      }
+      "err": {}
     },
     {
       "title": "should return \"Thank you.\" if the tip is not as generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'Thank you.'",
-        "showDiff": true,
-        "expected": "Thank you.",
-        "stack": "AssertionError: expected undefined to equal 'Thank you.'\n    at Context.<anonymous> (test/indexTest.js:32:58)\n    at processImmediate (node:internal/timers:466:21)"
-      }
+      "err": {}
     },
     {
       "title": "should return \"Bye.\" if anything else",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'Bye.'",
-        "showDiff": true,
-        "expected": "Bye.",
-        "stack": "AssertionError: expected undefined to equal 'Bye.'\n    at Context.<anonymous> (test/indexTest.js:36:64)\n    at processImmediate (node:internal/timers:466:21)"
-      }
+      "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "returns \"Ok, sounds good.\" when the city is NYC",
-      "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'Ok, sounds good.'",
-        "showDiff": true,
-        "expected": "Ok, sounds good.",
-        "stack": "AssertionError: expected undefined to equal 'Ok, sounds good.'\n    at Context.<anonymous> (test/indexTest.js:18:42)\n    at processImmediate (node:internal/timers:466:21)"
-      }
-    },
-    {
-      "title": "should return \"No go.\" if the destination city is not NYC",
-      "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'No go.'",
-        "showDiff": true,
-        "expected": "No go.",
-        "stack": "AssertionError: expected undefined to equal 'No go.'\n    at Context.<anonymous> (test/indexTest.js:22:49)\n    at processImmediate (node:internal/timers:466:21)"
-      }
-    },
-    {
-      "title": "should return \"Thank you so much.\" if the tip is generous",
-      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'Thank you so much.'",
-        "showDiff": true,
-        "expected": "Thank you so much.",
-        "stack": "AssertionError: expected undefined to equal 'Thank you so much.'\n    at Context.<anonymous> (test/indexTest.js:28:51)\n    at processImmediate (node:internal/timers:466:21)"
-      }
-    },
-    {
-      "title": "should return \"Thank you.\" if the tip is not as generous",
-      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'Thank you.'",
-        "showDiff": true,
-        "expected": "Thank you.",
-        "stack": "AssertionError: expected undefined to equal 'Thank you.'\n    at Context.<anonymous> (test/indexTest.js:32:58)\n    at processImmediate (node:internal/timers:466:21)"
-      }
-    },
-    {
-      "title": "should return \"Bye.\" if anything else",
-      "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'Bye.'",
-        "showDiff": true,
-        "expected": "Bye.",
-        "stack": "AssertionError: expected undefined to equal 'Bye.'\n    at Context.<anonymous> (test/indexTest.js:36:64)\n    at processImmediate (node:internal/timers:466:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -173,6 +87,41 @@
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns \"Ok, sounds good.\" when the city is NYC",
+      "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return \"No go.\" if the destination city is not NYC",
+      "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return \"Thank you so much.\" if the tip is generous",
+      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return \"Thank you.\" if the tip is not as generous",
+      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return \"Bye.\" if anything else",
+      "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
       "duration": 0,
       "currentRetry": 0,
       "err": {}

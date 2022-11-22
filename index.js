@@ -1,5 +1,4 @@
 function scuberGreetingForFeet(ride){
-  let message
   if (ride <= 400) {
     return "This one is on me!"
   }
@@ -12,23 +11,20 @@ function scuberGreetingForFeet(ride){
 }
 
 function ternaryCheckCity(cityName){
-  let city = (cityName = "NYC") ? "Ok, sounds good." : "No go.";
+  let city = (cityName === "NYC") ? "Ok, sounds good." : "No go.";
   return city;
 }
 
-function switchOnCharmFromTip(){
-  let charm = "generous"
-  let charmMessage;
+function switchOnCharmFromTip(charm){
 
   switch (charm) {
     case "generous":
-      charmMessage = "Thank you so much."
+      return "Thank you so much."
       break;
     case "not as generous":
-      charmMessage = "Thank you"
+      return "Thank you."
       break;
-    case "thanks for everything":
-      charmMessage = "Bye"
-      break;
+    default:
+      return "Bye."
   }
 }
